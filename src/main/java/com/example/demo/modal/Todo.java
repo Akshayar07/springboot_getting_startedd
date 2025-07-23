@@ -1,13 +1,22 @@
 package com.example.demo.modal;
 
 public class Todo {
+    private int id;
     private String title;
     private boolean done;
 
-    public Todo(){}
-    public Todo(String title, boolean done) {
+    public Todo(int id, String title, boolean done) {
+        this.id = id;
         this.title = title;
         this.done = done;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
     }
 
     public String getTitle() {
@@ -25,5 +34,5 @@ public class Todo {
     public void setTitle(String title) {
         this.title = title;
     }
-    
+
 }
