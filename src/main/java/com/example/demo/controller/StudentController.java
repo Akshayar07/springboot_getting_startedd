@@ -9,7 +9,7 @@ import com.example.demo.modal.Student;
 
 @RestController
 public class StudentController {
-    @GetMapping("/student")
+    @GetMapping("/students")
     public List<Student> getStudents() {
         return List.of(
                 new Student("Akshaya", 22),
