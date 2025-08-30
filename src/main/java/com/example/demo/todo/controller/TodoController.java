@@ -1,4 +1,4 @@
-package com.example.demo.controller;
+package com.example.demo.todo.controller;
 
 import java.util.List;
 
@@ -9,8 +9,8 @@ import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.example.demo.modal.Todo;
-import com.example.demo.service.TodoService;
+import com.example.demo.todo.modal.Todo;
+import com.example.demo.todo.service.TodoService;
 
 import org.springframework.web.bind.annotation.PathVariable;
 

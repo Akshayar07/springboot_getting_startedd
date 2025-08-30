@@ -1,4 +1,4 @@
-package com.example.demo.modal;
+package com.example.demo.todo.modal;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -7,12 +7,14 @@ import jakarta.persistence.Id;
 
 @Entity
 public class Todo {
-     @Id
+    @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
     private String title;
     private boolean done;
-    public Todo() {}
+
+    public Todo() {
+    }
 
     public Todo(int id, String title, boolean done) {
         this.id = id;

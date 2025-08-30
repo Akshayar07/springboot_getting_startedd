@@ -1,5 +1,5 @@
 
-package com.example.demo.modal;
+package com.example.demo.student;
 
 public class Student {
 
